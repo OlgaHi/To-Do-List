@@ -93,6 +93,7 @@ namespace ToDoList.Tests
 
     //Assert
     Assert.AreEqual(1, result);
+    } 
 
     [TestMethod]
     public void Find_ReturnsCorrectItem_Item()
@@ -110,5 +111,4 @@ namespace ToDoList.Tests
     Assert.AreEqual(newItem2, result);
     }
   }
-}
 }
