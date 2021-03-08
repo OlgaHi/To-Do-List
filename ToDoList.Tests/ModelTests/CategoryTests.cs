@@ -87,7 +87,7 @@ namespace ToDoList.Tests
     //Arrange
     string description = "Walk the dog.";
     Item newItem = new Item(description);
-    List<Item> newList = new List<Item> { newItem }; // from Item class
+    List<Item> newList = new List<Item> { newItem }; // from Categorie class
     string name = "Work";
     Category newCategory = new Category(name);
     newCategory.AddItem(newItem);
