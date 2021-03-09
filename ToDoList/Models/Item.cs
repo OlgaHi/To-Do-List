@@ -30,7 +30,7 @@ namespace ToDoList.Models
         Item newItem = (Item) otherItem;
         bool idEquality = (this.Id == newItem.Id);
         bool descriptionEquality = (this.Description == newItem.Description);
-        return descriptionEquality;
+        return (idEquality && descriptionEquality);
       }
     }
     public static List<Item> GetAll()

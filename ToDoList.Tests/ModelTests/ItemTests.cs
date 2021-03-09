@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 namespace ToDoList.Tests
 {
   [TestClass]
-  public class ItemTest : IDisposable
+  public class ItemTests : IDisposable
   {
 
     public void Dispose()
@@ -15,7 +15,7 @@ namespace ToDoList.Tests
       Item.ClearAll();
     }
 
-    public void ItemTests() //constructor
+    public ItemTests() //constructor
     {
       DBConfiguration.ConnectionString = "server=localhost;user id=root;password=epicodus;port=3306;database=to_do_list_test;";
     }
